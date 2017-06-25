@@ -46,7 +46,7 @@
                 @include rotate(0);
                 @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
             }
-            
+
             &:after {
                 @include size(16px, 1px);
                 top: -5px;
@@ -83,7 +83,7 @@
         max-height: 95px;
         line-height: 65px;
     }
-    
+
     .logo-wrap {
         display: inline-block;
         padding: 15px 0;
@@ -152,7 +152,7 @@
             }
         }
 	}
-	
+
 	.nav-item-child {
 		@include position(relative);
 		display: block;
@@ -232,7 +232,7 @@
             .logo-img-main {
                 display: none;
             }
-            
+
             .logo-img-active {
                 display: inline-block;
             }
@@ -309,7 +309,7 @@
                 display: none;
                 @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
             }
-            
+
             .logo-img-active {
                 display: inline-block;
                 @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
